@@ -1,11 +1,11 @@
-# PyDataSeattle2017
+# SciPy 2017
 
 ### Dependencies
 
 This package depends on the following packages:
 
 - `ipywidgets` (version >= 6)
-- `bqplot` (version >= 0.9.0)
+- `bqplot` (version >= 0.10.0a1)
 - `scikit-learn`
 - `numpy`
 - `pandas`
@@ -16,7 +16,7 @@ This package depends on the following packages:
 Using pip:
 
 ```
-$ pip install bqplot
+$ pip install --pre bqplot
 $ jupyter nbextension enable --py --sys-prefix bqplot
 ```
 
